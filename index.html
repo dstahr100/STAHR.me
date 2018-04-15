@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="content-language" content="en-us">
+
+   <!-- Mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> STAHR.me - Home</title>
+
+    <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+    <!-- FAVICONS -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#07191f">
+<meta name="msapplication-TileColor" content="#0d0b0b">
+<meta name="theme-color" content="#ffffff">
+    
+    <!--Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+</head>
+<body>
+
+<!--Fixed Nav. Bar-->
+ <header id="fixed-nav-bar" >
+  <ul>
+    <li id="test"><a id="home-buttom" href="index.html"><img id="svgSize" src="Images/Dark_Logo.svg">
+</a></li>
+    <div id="ceaseAutoHide">  
+     <li id="revealOverlay_js">
+          <div class="menu_container" >
+              <div id="menu-word">MENU</div>
+              <div id="burger-container">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+          </div>
+     </li>
+    </div>    
+  </ul>
+</header>
+
+<!-- Overlay Nav. Bar -->
+<nav id="olverlay-menu" class="overlay">
+  <div class="overlay-content">
+      
+      <a id="accLink" href="Accomplishments.html"><b>Accomplishments</b></a>
+      
+      <button id="arrowToggleD3" class="accordion"><i id="arrowRight3"></i>&nbsp; Business Projects</button>
+        <div class="panel">
+            <a href="Coursework.html">Coursework</a>
+        </div>
+      
+      <button id="arrowToggleD1" class="accordion"><i id="arrowRight1"></i>&nbsp; Code Blogs</button>
+        <div class="panel">
+            <a href="HTML_Blog.html">HTML</a>
+            <a href="CSS_Blog.html">CSS</a>
+            <a href="JS_Blog.html">JavaScript</a>
+        </div>
+      
+      <button id="arrowToggleD2" class="accordion"><i id="arrowRight2"></i>&nbsp; Interests</button>
+        <div class="panel">
+            <a href="Mindful_Blog.html">Mindfulness</a>
+            <a href="A11y.html">A11y</a>
+        </div>
+           
+  </div>
+</nav>
+
+    
+<main class="main_content">
+    
+    <section class="container container__big">
+		<div class="contentHead">
+			<h1>I'm<br>David Stahr</h1>
+			<p id="guide">Scroll Down<br>&#x21E9;</p>
+		</div>
+		<div class="parallax parallax__bg bg1"></div>
+	</section>
+
+	<section class="container container__small">
+		<div class="content"><p id="DomainPSize">I Have a<br>Passion for<br>Technology...</p></div>
+		<div class="parallax parallax__bg sm1"></div>
+	</section>
+
+	<section class="container container__big">
+		<div class="parallax parallax__bg bg2"></div>
+	</section>
+
+    <section class="container container__small">
+		<div class="content"><p id="bannerSize">...and<br>Business</p></div>
+		<div class="parallax parallax__bg sm2"></div>
+	</section>
+    
+    <section class="container container__big">
+		<div class="parallax parallax__bg bg3"></div>
+	</section>
+
+    <section class="container container__small">
+		<div class="content"><p>This Site<br>Showcases<br>My Work</p></div>
+		<div class="parallax parallax__bg sm3"></div>
+	</section>
+       
+	<section class="container container__big">
+		<div class="parallax parallax__bg bg5"></div>
+	</section>
+    
+    <footer id="footerHome">
+        <p id="footParaHome">Site created by David Stahr Photos courtesy from <a class="attributions" href="https://unsplash.com/">Unsplash.com</a></p>
+</footer>
+</main> 
+    
+<script src="index.js"></script> 
+<script type="text/javascript" src="universal-parallax.min.js"></script>
+	<script>
+		new universalParallax().init();
+	</script>
+</body>
+</html>

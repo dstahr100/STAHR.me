@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="content-language" content="en-us">
+
+   <!-- Mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAHR.me - A11y Blog</title>
+
+    <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="index.css">
+
+    <!-- FAVICONS -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#07191f">
+<meta name="msapplication-TileColor" content="#0d0b0b">
+<meta name="theme-color" content="#ffffff">
+    
+     <!--Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+<!-- Fixed Nav. Bar That Shows Overlay Nav. Bar -->
+<header id="fixed-nav-bar" >
+  <ul>
+    <li id="test">
+        <a id="home-buttom" href="index.html">
+            <img id="svgSize" src="Images/Dark_Logo.svg">
+        </a>
+    </li>
+    <div id="ceaseAutoHide">  
+     <li id="revealOverlay_js">
+          <div class="menu_container" >
+              <div id="menu-word">MENU</div>
+              <div id="burger-container">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+          </div>
+     </li>
+    </div>    
+  </ul>
+</header>
+
+<!-- Overlay Nav. Bar -->
+<nav id="olverlay-menu" class="overlay">
+  <div class="overlay-content">
+      
+      <a id="accLink" href="Accomplishments.html"><b>Accomplishments</b></a>
+      
+      <button id="arrowToggleD3" class="accordion"><i id="arrowRight3"></i>&nbsp; Business Projects</button>
+        <div class="panel">
+            <a href="Coursework.html">Coursework</a>
+        </div>
+      
+      <button id="arrowToggleD1" class="accordion"><i id="arrowRight1"></i>&nbsp; Code Blogs</button>
+        <div class="panel">
+            <a href="HTML_Blog.html">HTML</a>
+            <a href="CSS_Blog.html">CSS</a>
+            <a href="JS_Blog.html">JavaScript</a>
+        </div>
+      
+      <button id="arrowToggleD2" class="accordion"><i id="arrowRight2"></i>&nbsp; Interests</button>
+        <div class="panel">
+            <a href="Mindful_Blog.html">Mindfulness</a>
+            <a href="A11y.html">A11y</a>
+        </div>
+           
+  </div>
+</nav>
+    
+<main class="main_content">
+     
+ <img id="a11y" alt="A11y Logo" src="Images/A11y.jpg">
+    
+<hr>
+    
+<p id="blogPageCenter">A11y is an coding initiative that seeks to promote better accessibility practices for disabled web users by educating coders and application developers. Each blog post here explores my experiences learning about A11y's accessibility practices.</p>
+
+<p></p>
+
+<hr id="hrSeperator">
+    
+    <div class="row"> 
+    
+      <div class="column">
+        <div class="card">
+            <a class="postLink" href="Blogpost/Web-Accessible-Websites.html">
+                <img class="imgSize" src="Images/accessibility.png" alt="acessibility graphic" style="width:100%">
+                <div class="cardContainer">
+                    <h4 class="postHead">Why Make Accessible Code?</h4>
+                    <hr>
+                    <p class="postSum">Buildings are made to be accessibility for people
+with wheelchairs because it is the right thing to do and it is required in some
+cases. So why not do the same for websites?…</p>
+               </div>
+            </a>
+       </div>
+    </div> 
+    
+    <div class="column">
+        <div class="card">
+            <a class="postLink" href="Blogpost/Common-Pitfalls.html">
+                <img class="imgSize" src="Images/pitfalls.png" alt="person falling in a hole graphic" style="width:100%">
+                <div class="cardContainer">
+                    <h4 class="postHead">Common Pitfalls</h4>
+                    <hr>
+                    <p class="postSum">From my short time learning how
+to better implement websites that are disability accessible, I have discovered
+the common pitfalls that would result in a developer making a site that is not
+accessible to all users…</p>
+               </div>
+            </a>
+       </div>
+    </div> 
+    
+    <div class="column">
+        <div class="card">
+            <a class="postLink" href="#">
+                <img class="imgSize" src="Images/A11y-101.png" alt="Web Accessibility 101 graphic" style="width:100%">
+                <div class="cardContainer">
+                    <h4 class="postHead">Accessibility 101</h4>
+                    <hr>
+                    <p class="postSum">Coming Soon Please Check Back Later…</p>
+               </div>
+            </a>
+       </div>
+    </div> 
+    
+     
+</div> 
+    
+<!--
+<div class="row"> 
+      <div class="column">
+        <div class="card">
+            <a class="postLink" href="#">
+                <img class="imgSize" src="Images/Good-Practices.png" alt="Graphic of person surrounded by sign language and other disability symbols" style="width:100%">
+                <div class="cardContainer">
+                    <h4 class="postHead">Good Practices</h4>
+                    <hr>
+                    <p class="postSum">…</p>
+               </div>
+            </a>
+       </div>
+    </div>      
+</div>
+-->
+    
+</main> 
+    
+       
+<script src="index.js"></script>
+<script src="jquery-3.1.1.min.js"></script>
+    
+</body>
+</html>
