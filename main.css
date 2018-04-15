@@ -189,6 +189,12 @@ section .contentHead {
     background-attachment: fixed;
 } 
 
+@media screen and (max-width: 620px) {
+    .bg1 {
+     background-image: url("Images/avatar.jpg");   
+    }
+}
+
 .sm1 {
     background: #222;
     backface-visibility: hidden;
