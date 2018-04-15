@@ -184,16 +184,10 @@ section .contentHead {
 
 /* ways of implementing parallax bg by class/id */
 .bg1 {
-	background-image: url("Images/img_parallax1.svg");
+	background-image: url("Images/avatar-blonde.jpg");
     backface-visibility: hidden;
     background-attachment: fixed;
 } 
-
-@media screen and (max-width: 620px) {
-    .bg1 {
-     background-image: url("Images/avatar.jpg");   
-    }
-}
 
 .sm1 {
     background: #222;
@@ -202,7 +196,7 @@ section .contentHead {
 }
 
 .bg2 {
-	background-image: url("Images/img_parallax3.jpg");
+	background-image: url("Images/Web-Design.jpg");
     backface-visibility: hidden;
     background-attachment: fixed;
 }
