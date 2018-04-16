@@ -184,7 +184,7 @@ section .contentHead {
 
 /* ways of implementing parallax bg by class/id */
 .bg1 {
-	background-image: url("Images/img_parallax1.jpg");
+	background-image: url("Images/Vecteezy-0833.svg");
     backface-visibility: hidden;
     background-attachment: fixed;
 } 
@@ -196,7 +196,7 @@ section .contentHead {
 }
 
 .bg2 {
-	background-image: url("Images/technology.jpg");
+	background-image: url("Images/Vecteezy-0178.svg");
     backface-visibility: hidden;
     background-attachment: fixed;
 }
