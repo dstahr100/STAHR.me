@@ -196,7 +196,7 @@ section .contentHead {
 }
 
 .bg2 {
-	background-image: url("Images/Programing.jpg");
+	background-image: url("Images/technology.jpg");
     backface-visibility: hidden;
     background-attachment: fixed;
 }
@@ -209,7 +209,7 @@ section .contentHead {
 }
 
 .bg3 {
-    background-image: url("Images/img_parallax4.jpg");
+    background-image: url("Images/stock-chart.jpg");
     backface-visibility: hidden;
     background-attachment: fixed;
 }
