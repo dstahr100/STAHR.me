@@ -209,7 +209,7 @@ section .contentHead {
 }
 
 .bg3 {
-    background-image: url("Images/stock-chart.jpg");
+    background-image: url("Images/Vecteezy-16-1513.svg");
     backface-visibility: hidden;
     background-attachment: fixed;
 }
@@ -221,7 +221,7 @@ section .contentHead {
 } 
 
 .bg4 {
-    background-image: url("Images/img_parallax2.jpg");
+    background-image: url("Images/Vecteezy-1028.svg");
     backface-visibility: hidden;
     background-attachment: fixed;
 }
@@ -233,9 +233,14 @@ section .contentHead {
 }
 
 .bg5 {
-    background-image: url("Images/img_parallax5.jpg");
+    background-image: url("Images/Vecteezy-1028.svg");
     backface-visibility: hidden;
     background-attachment: fixed;
+}
+
+#middle {
+    position: relative;
+    top: 10px;
 }
 
 /*=======================================================*/
