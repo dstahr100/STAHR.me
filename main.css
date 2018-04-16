@@ -184,7 +184,7 @@ section .contentHead {
 
 /* ways of implementing parallax bg by class/id */
 .bg1 {
-	background-image: url("Images/avatar-blonde.jpg");
+	background-image: url("Images/img_parallax1.jpg");
     backface-visibility: hidden;
     background-attachment: fixed;
 } 
