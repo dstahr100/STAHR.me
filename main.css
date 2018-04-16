@@ -196,7 +196,7 @@ section .contentHead {
 }
 
 .bg2 {
-	background-image: url("Images/Web-Design.jpg");
+	background-image: url("Images/Programing.jpg");
     backface-visibility: hidden;
     background-attachment: fixed;
 }
