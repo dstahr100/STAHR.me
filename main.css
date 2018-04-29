@@ -336,11 +336,17 @@ a {
 } 
 
 .parallax1 { 
-    background: url(Images/img_parallax1.jpg) center center cover no-repeat fixed;
+    /* The image used */
+    background-image: url("Images/img_parallax1.jpg");
 
     /* Full height */
-    width: 100%;
+    width: 1005;
     height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    image-rendering: pixelated;
+    
 } 
 
 .parallax2 { 
