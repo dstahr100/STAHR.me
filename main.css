@@ -337,7 +337,8 @@ a {
 
 .parallax1 { 
     /* The image used */
-    background-image: url("Images/img_parallax1.jpg");
+     background-image: url("Images/Vecteezy-0178.svg");
+    
 
     /* Full height */
     width: 1005;
@@ -345,12 +346,12 @@ a {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    image-rendering: pixelated;
+    
     
 } 
 
 .parallax2 { 
-    background-image: url("Images/img_parallax3.jpg");
+   background-image: url("Images/Vecteezy-16-1513.svg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -359,16 +360,7 @@ a {
 }
 
 .parallax3 { 
-    background-image: url("Images/img_parallax4.jpg");
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
-.parallax4 { 
-    background-image: url("Images/img_parallax5.jpg");
+    background-image: url("Images/Vecteezy10200.svg");
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
