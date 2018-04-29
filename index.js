@@ -49,51 +49,6 @@ function closeNav() {
 
 // ======================================================
 
-var intervalID = null;
-
-//this is the funcation that will inizalize the auto hide nav bar
-function intervalManager() {
-    "use strict";
-     
-    var last = 0,    // The last read top value
-    delay = 135, // The delay for the setInterval *was 150*
-    threshold = 10;    // The max scroll distance before showing/hiding the nav *was 20 and 30*
-        
-        intervalID = setInterval(function () {
-            var nav = document.getElementById('fixed-nav-bar'), // Gets nav object
-                pageVertOffset = document.all ? iebody.scrollTop : pageYOffset;
-        if (pageVertOffset - last < -threshold) { // Happens if the difference in scroll is below the negative threshold
-            nav.style.top = "0px"; // Put the nav at the top of the window
-        } else if (pageVertOffset - last > threshold) { // Happend if the difference in scroll is above the threshold
-            nav.style.top = -nav.offsetHeight + "px"; // Hides the navigation
-        }
-        last = pageVertOffset; // Updates the previous scroll value
-    }, delay); // Runs every `delay` amount
-
-    
-}
-
-//funcation is called once web page loads so that it works immediatelty 
-
-intervalManager();
-
-var autoHideObject = document.getElementById("ceaseAutoHide");
-
-autoHideObject.addEventListener("click", autoHideDecider);
-
-function autoHideDecider() {
-    "use strict";
-	if (autoHideObject.id === "ceaseAutoHide") {
-		clearInterval(intervalID);
-		autoHideObject.id = "startAutoHide";
-	} else if (autoHideObject.id === "startAutoHide") {
-        intervalManager();
-        autoHideObject.id = "ceaseAutoHide";
-    }
-}
-
-// ======================================================
-
 //Code for accordin 
 
 var acc = document.getElementsByClassName("accordion");

@@ -5,15 +5,11 @@
 body, html {
 	height: 100%;
 	width: 100%;
-    backface-visibility: hidden;
-    background-attachment: fixed;
 }
 
 body, p, h1, h2, h3 {
 	margin: 0;
 	padding: 0;
-    backface-visibility: hidden;
-    background-attachment: fixed;
 }
 
 p, h1, h2 {
@@ -31,10 +27,61 @@ body {
 
 p {
 	font-size: 2.5em;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+	font-size: 3em;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+#uniqueP {
+    font-size: 1.7em;
+    padding: 0px;
+    position: relative;
+    bottom: 20px;
+} 
+
+#uniqueH1 {
+    font-size: 2.3em;
 }
 
 ul {
   list-style-type: none;
+}
+
+section {
+    height: 275px;
+    background-color: rgb(34, 34, 34);
+} 
+
+@media (max-height: 400px) {
+    section {
+    height: 200px;
+}  
+}
+
+#layer {
+    position: relative;
+    top: 100px;
+    width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 220px;
+    background-color: rgba(0, 0, 0, 0.5)
+} 
+
+#scroll-down {
+    font-size: 0.55em;
+}
+
+img {
+  height: 100%;
+  width: 100%;
 }
 
 #DomainPSize {
@@ -49,6 +96,11 @@ ul {
 
 #bannerSize {
 	font-size: 3.4em;
+    padding: 60px;
+}
+
+#showcase {
+    padding: 60px;
 }
 
 @media screen and (max-width: 350px) {
@@ -73,15 +125,6 @@ ul {
     }
 }
 
-.p--copy {
-	padding: 3px 0 22px 0;
-}
-
-.p--credits {
-	font-size: .8em;
-	font-weight: 700;
-}
-
 h1, h2 {
 	font-size: 2.6em;
 	/*font-weight: 700;*/
@@ -93,157 +136,6 @@ a {
 	text-decoration: none;
 }
 
-.a--no-weight {
-	font-weight: 300;
-}
-
-section {
-	-webkit-align-items: center;
-	align-items: center;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	-ms-flex-align: center;
-	-webkit-flex-wrap: wrap;
-	-ms-flex-wrap: wrap;
-	flex-wrap: wrap;
-	margin: 0;
-	padding: 0;
-	position: relative;
-	width: 100%;
-}
-section .content {
-	/*background: rgba(0, 0, 0, .4);*/
-	border-radius: 3px;
-	color: #fff;
-	margin: 0 auto;
-	padding: 15px 20px;
-	text-align: center;
-}
-
-section .contentHead {
-	background: rgba(0, 0, 0, .4);
-	border-radius: 3px;
-	color: #fff;
-	margin-top: 60px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-	padding: 15px 20px;
-	text-align: center;
-}
-
-.parallax__container {
-	clip: rect(0, auto, auto, 0);
-	height: 100%;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	z-index: -10;
-}
-.parallax__container .parallax {
-	height: 100%;
-	left: 0;
-	position: fixed;
-	top: 0;
-	width: 100%;
-}
-.parallax__container .parallax__bg {
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-    position: fixed;
-}
-
-.container {
-	padding: 15px;
-    position: fixed;
-}
-
-.container__huge {
-	height: 175vh;
-}
-
-.container__big {
-	height: 100vh;
-    backface-visibility: hidden;
-    background-attachment: fixed;
-}
-
-.container__small {
-	height: 40vh;
-    backface-visibility: hidden;
-    background-attachment: fixed;
-/*	box-shadow: 0 0 5px rgba(2, 2, 2, .8);*/
-	/*#ccc*/
-    /*rgba(0, 0, 0, .7);*/
-}
-
-.container__random {
-	height: 452px;
-}
-
-/* ways of implementing parallax bg by class/id */
-.bg1 {
-	background-image: url("Images/Vecteezy-0833.svg");
-    backface-visibility: hidden;
-    background-attachment: fixed;
-} 
-
-.sm1 {
-    background: #222;
-    backface-visibility: hidden;
-    background-attachment: fixed;
-}
-
-.bg2 {
-	background-image: url("Images/Vecteezy-0178.svg");
-    backface-visibility: hidden;
-    background-attachment: fixed;
-}
-
-.sm2 {
-    background: #222;
-    font-size: 3em;
-    backface-visibility: hidden;
-    background-attachment: fixed;
-}
-
-.bg3 {
-    background-image: url("Images/Vecteezy-16-1513.svg");
-    backface-visibility: hidden;
-    background-attachment: fixed;
-}
-
-.sm3 {
-    background: #222;
-    backface-visibility: hidden;
-    background-attachment: fixed;
-} 
-
-.bg4 {
-    background-image: url("Images/Vecteezy-1028.svg");
-    backface-visibility: hidden;
-    background-attachment: fixed;
-}
-
-.sm4 {
-    background: #222;
-    backface-visibility: hidden;
-    background-attachment: fixed;
-}
-
-.bg5 {
-    background-image: url("Images/Vecteezy-1028.svg");
-    backface-visibility: hidden;
-    background-attachment: fixed;
-}
-
-#middle {
-    position: relative;
-    top: 10px;
-}
 
 /*=======================================================*/
 
@@ -326,7 +218,7 @@ section .contentHead {
     margin-right: 35px;
     float: right;
     cursor: pointer;
-}
+} 
 
 #menu-word{
   display: inline-block;
@@ -441,4 +333,43 @@ section .contentHead {
 
 #arrowToggleR3 {
    border-style: none;
+} 
+
+.parallax1 { 
+    /* The image used */
+    background-image: url("Images/img_parallax1.jpg");
+
+    /* Full height */
+    width: 1005;
+    height: 100vh; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+
+.parallax2 { 
+    background-image: url("Images/img_parallax3.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.parallax3 { 
+    background-image: url("Images/img_parallax4.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.parallax4 { 
+    background-image: url("Images/img_parallax5.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
